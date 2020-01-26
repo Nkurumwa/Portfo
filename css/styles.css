@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.side_nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #116db8;
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+
+.side_nav a {
+    margin-top: 10px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.side_nav a:hover {
+    color: #ffffff;
+}
+
+.rounded_circle {
+    border-radius: 50%;
+}
+
+.about {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 10px;
+    height: 30vh;
+    width: 70vw;
+}
+
+.skills {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 10px;
+    height: 70vh;
+    width: 70vw;
+}
+
+.projects {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 10px;
+    height: 70vh;
+    width: 70vw;
+}
